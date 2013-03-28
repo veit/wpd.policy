@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<portlets>
+  <assignment
+    remove="true"
+    name="calendar"
+    category="context"
+    key="/"
+    manager="plone.rightcolumn"
+    type="portlets.Calendar" />
+   <assignment name="wpd-countdown"
+    category="context"
+    key="/"
+    manager="plone.rightcolumn"
+    type="wpd.countdown.WPDcountdown"
+    visible="True"
+    insert-before="*" />
+</portlets>
+

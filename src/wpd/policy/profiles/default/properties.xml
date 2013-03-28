@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<site>
+ <property name="title">World Plone Day 2013</property>
+ <property name="email_from_address"
+    type="string">postmaster@veit-schiele.de</property>
+ <property name="email_from_name" type="string">Site Administrator</property>
+ <property name="enable_permalink" type="boolean">True</property>
+ <property name="default_page" type="string">front-page</property>
+</site>
+
