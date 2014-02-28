@@ -2,7 +2,7 @@
 <metadata>
   <version>1.0.0</version>
  <dependencies>
+    <dependency>profile-vs.basetheme:default</dependency>
     <dependency>profile-wpd.countdown:default</dependency>
-    <dependency>profile-zettwerk.fullcalendar:default</dependency>
   </dependencies>
 </metadata>

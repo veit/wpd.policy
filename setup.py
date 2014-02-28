@@ -36,6 +36,7 @@ setup(name='wpd.policy',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'vs.basetheme',
           'wpd.countdown',
       ],
       extras_require={'test': ['plone.app.testing']},
