@@ -13,6 +13,21 @@
   <property name="enable_sitemap" type="boolean">True</property>
   <property name="icon_visibility" type="string">authenticated</property>
   <property name="mark_special_links" type="string">true</property>
+  <property name="webstats_js" type="text">&lt;!-- Piwik --&gt;
+   &lt;script type="text/javascript"&gt;
+     var _paq = _paq || [];
+     _paq.push(['trackPageView']);
+     _paq.push(['enableLinkTracking']);
+     (function() {
+       var u="//piwik.veit-schiele.de/";
+       _paq.push(['setTrackerUrl', u+'piwik.php']);
+       _paq.push(['setSiteId', 7]);
+       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+       g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+     })();
+   &lt;/script&gt;
+   &lt;noscript&gt;&lt;p&gt;&lt;img src="//piwik.veit-schiele.de/piwik.php?idsite=7" style="border:0;" alt="" /&gt;&lt;/p&gt;&lt;/noscript&gt;
+   &lt;!-- End Piwik Code --&gt;</property>
  </object>
 </object>
 
